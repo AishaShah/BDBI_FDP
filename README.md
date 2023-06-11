@@ -8,7 +8,7 @@ Project.
       
     This file includes scripts used to extract rDNA sequences from
     T2T-CHM13 annotation files. It also include bed files of masked
-    regions. (corrsponds to section 2.1 Obtaining Genomic Coordinates
-    and 2.3.2 Masking T2T-CHM13 genome of 01_FDP_Report)
+    regions.  
+    *`(corrsponds to section 2.1 Obtaining Genomic Coordinates and 2.3.2 Masking T2T-CHM13 genome of 01_FDP_Report)`*
 
 2.  

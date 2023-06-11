@@ -1,0 +1,19 @@
+# Create bed file with annotated genes in T2T-gff3 file 
+cat ../T2T.gff3 | python scripts/gff2bed.genes.py > T2T_gene_annotation.bed
+
+# Create bed file with annotated rDNA genes in T2T_gene_annotation.bed
+cat T2T_gene_annotation.bed | awk '{if($6=="rRNA") print }' | grep -v "RNA5SP\|5S_rRNA\|AC243569.1\|5_8S_rRNA" > T2T_rDNA_gene_annotation.bed
+# Create bed file with annotated rDNA pseudogenes in T2T_gene_annotation.bed
+cat T2T_gene_annotation.bed | awk '{if($6=="rRNA") print }' | grep "RNA5SP\|5S_rRNA\|AC243569.1\|5_8S_rRNA" > T2T_rDNA_pseudogene_annotation.bed
+cat T2T_gene_annotation.bed | awk '{if($6=="rRNA_pseudogene") print }'>> T2T_rDNA_pseudogene_annotation.bed
+sort -k1,1V -k2,2n  -k3,3n T2T_rDNA_pseudogene_annotation.bed > T2T_rDNA_pseudogene_annotation.bed
+
+## sort T2T_rDNA_pseudogene_annotation.bed again!!
+
+
+### NAMING CONVENTION
+T2T_rDNA_gene_annotation_names.sorted.bed
+
+## we previously masked blast hits that were covering 75% of gene length but since reads length are 151bp (T2T) and 76bp (GTEx) so it is better to mask blast hits > 30bp having percentage identity>90% with rDNA genes
+ln -s /gpfs/projects/bsc83/Projects/ribosomal_RNAs/Aisha/T2T_variant_calling/00_Identifying_pseudogenes/rRNA45S_genes/blast/blast_hits/to_be_masked/T2T_rDNA_blastn_unannotated_GENES_PS_furtherMasking.sorted.bed
+# column names : Subject_id   s_start     s_end sstrand . . . source  name X.identity N.identity alignment_length mismatches gap_openings hit_len

@@ -1,0 +1,39 @@
+Name	pos_in_fasta_start	pos_in_fasta_stop	base	Region	Alleles	Counts_219_copies	Counts_uniq_copies	Pos_in_MSA_uniq_copies
+consensus_from_uniq_morphs_T2T_13kb	138	139	Y	ETS_5p	C/T	C:131/T:88	C:14/T:10	139
+consensus_from_uniq_morphs_T2T_13kb	1757	1758	Y	ETS_5p	T/C	T:122/C:97	T:14/C:10	1761
+consensus_from_uniq_morphs_T2T_13kb	1945	1946	S	ETS_5p	G/C	G:123/C:96	G:15/C:9	1949
+consensus_from_uniq_morphs_T2T_13kb	1946	1947	K	ETS_5p	T/G	T:123/G:96	T:15/G:9	1950
+consensus_from_uniq_morphs_T2T_13kb	2339	2340	R	ETS_5p	A/G	A:124/G:95	A:16/G:8	2347
+consensus_from_uniq_morphs_T2T_13kb	2621	2622	M	ETS_5p	A/C	A:124/C:95	A:16/C:8	2632
+consensus_from_uniq_morphs_T2T_13kb	3386	3387	R	ETS_5p	A/G	A:128/G:91	A:13/G:11	3398
+consensus_from_uniq_morphs_T2T_13kb	3540	3541	Y	ETS_5p	T/-/C	-:91/T:78/C:50	T:11/-:7/C:6	3559
+consensus_from_uniq_morphs_T2T_13kb	6519	6520	N	ITS1	G/T/C/-	G:130/C:48/T:40/-:1	G:15/T:4/C:4/-:1	6557
+consensus_from_uniq_morphs_T2T_13kb	6521	6522	S	ITS1	C/G/-/T	T:73/G:57/-:48/C:41	C:12/G:6/-:4/T:2	6559
+consensus_from_uniq_morphs_T2T_13kb	7248	7249	M	ITS2	A/C	C:112/A:107	A:14/C:10	7289
+consensus_from_uniq_morphs_T2T_13kb	7786	7787	Y	ITS2	C/T	C:144/T:75	C:14/T:10	7829
+consensus_from_uniq_morphs_T2T_13kb	7981	7982	R	S28	G/A	A:125/G:94	G:14/A:10	8024
+consensus_from_uniq_morphs_T2T_13kb	10106	10107	K	S28	G/T	G:167/T:52	G:16/T:8	10154
+consensus_from_uniq_morphs_T2T_13kb	10109	10110	K	S28	T/G	T:167/G:52	T:16/G:8	10157
+consensus_from_uniq_morphs_T2T_13kb	10111	10112	S	S28	C/G/T	C:167/G:50/T:2	C:16/G:6/T:2	10159
+consensus_from_uniq_morphs_T2T_13kb	10113	10114	Y	S28	T/C	T:165/C:54	T:14/C:10	10161
+consensus_from_uniq_morphs_T2T_13kb	10119	10120	S	S28	G/CC/GC/C/CG	G:163/CC:49/GC:2/C:2/-:2/CG:1	G:12/CC:5/GC:2/C:2/-:2/CG:1	10167
+consensus_from_uniq_morphs_T2T_13kb	10120	10121	S	S28	C/G/-	C:117/G:51/-:51	C:10/G:7/-:7	10169
+consensus_from_MSA_all_rRNA_copies_T2T_13kb       138              139                Y       C/T           C:131/T:88                   C:0.598/T:0.402                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      1755             1756                Y       T/C           T:122/C:97                   T:0.557/C:0.443                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      1943             1944                S       G/C           G:123/C:96                   G:0.562/C:0.438                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      1944             1945                K       T/G           T:123/G:96                   T:0.562/G:0.438                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      2337             2338                R       A/G           A:124/G:95                   A:0.566/G:0.434                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      2619             2620                M       A/C           A:124/C:95                   A:0.566/C:0.434                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      3205             3206                M       C/A           C:144/A:75                   C:0.658/A:0.342                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      3384             3385                R       A/G           A:128/G:91                   A:0.584/G:0.416                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      5630             5631                Y       T/C           T:145/C:74                   T:0.662/C:0.338                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      5726             5727                R     G/A/-      G:131/A:71/-:17           G:0.598/A:0.324/-:0.078                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      6514             6515                S C/GG/TT/G C:51/GG:50/TT:40/G:1 C:0.233/GG:0.228/TT:0.183/G:0.005                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      6515             6516                K   T/G/-/C  T:73/G:56/-:52/C:38   T:0.333/G:0.256/-:0.237/C:0.174                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      6516             6517                K       G/T           G:146/T:73                   G:0.667/T:0.333                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      7242             7243                M       C/A          C:112/A:107                   C:0.511/A:0.489                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      7780             7781                Y       C/T           C:144/T:75                   C:0.658/T:0.342                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb      7975             7976                R       A/G           A:125/G:94                   A:0.571/G:0.429                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb     10094            10095                K       G/T           G:132/T:87                   G:0.603/T:0.397                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb     10107            10108                Y     T/C/-       T:132/C:86/-:1           T:0.603/C:0.393/-:0.005                             
+consensus_from_MSA_all_rRNA_copies_T2T_13kb     10960            10961                R       A/G           A:144/G:75                   A:0.658/G:0.342                             

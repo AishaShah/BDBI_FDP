@@ -1,0 +1,1 @@
+load clustal/1.2.4 (PATH, LD_LIBRARY_PATH, C_INCLUDE_PATH, MANPATH) 

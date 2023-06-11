@@ -1,0 +1,15 @@
+SNP-Calling using snp-sites package
+
+
+global_MSA = /gpfs/projects/bsc83/Projects/ribosomal_RNAs/Aisha/01_Sequences_and_Alignments/global_MSA/
+
+MSA for each chromosome = /gpfs/projects/bsc83/Projects/ribosomal_RNAs/Aisha/01_Sequences_and_Alignments/aligned_without_KY96/
+
+
+snp-sites -v -o variants_chr13.vcf fasta_T2T_rRNA_chr13.aln
+snp-sites -v -o variants_chr14.vcf fasta_T2T_rRNA_chr14.aln
+snp-sites -v -o variants_chr15.vcf fasta_T2T_rRNA_chr15.aln
+snp-sites -v -o variants_chr21.vcf fasta_T2T_rRNA_chr21.aln
+snp-sites -v -o variants_chr22.vcf fasta_T2T_rRNA_chr22.aln
+snp-sites -v -o variants_global_aln.vcf fasta_T2T_rRNA.aln
+

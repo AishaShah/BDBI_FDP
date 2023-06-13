@@ -3,16 +3,11 @@
 This folder conatins fasta sequences and alignments of unique morphs from 44kb rRNA45S. 
 Fatsa sequences were extracted from the fatsa file in /01_Sequences_and_Alignments/aligned_full_without_KY96/sequences_full/fasta_T2T_rRNA_full.fa 
 
-python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa >> T2T_rRNA45S_uniq_morphs_44kb.fa
-chr13 1 6 72 73 74 75 76
-python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa >> T2T_rRNA45S_uniq_morphs_44kb.fa
-chr14 1 2 14 15 16
-python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa >> T2T_rRNA45S_uniq_morphs_44kb.fa
-chr15 1 2 17 18 34 35 50
-python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa >> T2T_rRNA45S_uniq_morphs_44kb.fa
-chr21 1 2 17 18 54 55 56
-python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa >> T2T_rRNA45S_uniq_morphs_44kb.fa
-chr22 1 17 18 19 20 21
+python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa chr13 1 6 72 73 74 75 76 >> T2T_rRNA45S_uniq_morphs_44kb.fa
+python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa chr14 1 2 14 15 16       >> T2T_rRNA45S_uniq_morphs_44kb.fa
+python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa chr15 1 2 17 18 34 35 50 >> T2T_rRNA45S_uniq_morphs_44kb.fa
+python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa chr21 1 2 17 18 54 55 56 >> T2T_rRNA45S_uniq_morphs_44kb.fa
+python3 ../get_morphs_out.py fasta_T2T_rRNA_full.fa chr22 1 17 18 19 20 21   >> T2T_rRNA45S_uniq_morphs_44kb.fa
 
 
 

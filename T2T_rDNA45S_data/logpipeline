@@ -1,0 +1,5 @@
+cat T2T_rDNA.consensus.single.fa T2T_rDNA45S.24_uniq_morphs.fa > T2T_rDNA45S.consensus.24_uniq_morphs.fa
+module load clustal
+clustalo -i T2T_rDNA45S.consensus.24_uniq_morphs.fa -o T2T_rDNA45S.consensus.24_uniq_morphs.aln --threads=8 --distmat-out=T2T_rDNA45S.consensus.24_uniq_morphs.distances.out --percent-id --full
+
+infoalign -refseq 1 -nousa -heading T2T_rDNA45S.consensus.24_uniq_morphs.aln

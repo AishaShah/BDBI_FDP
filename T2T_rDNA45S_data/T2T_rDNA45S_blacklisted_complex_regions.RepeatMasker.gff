@@ -1,0 +1,31 @@
+##gff-version 2
+##date 2023-05-25
+##sequence-region T2T_rDNA.fa
+T2T_45S	RepeatMasker	similarity	147	191	20.3	+	.	Target "Motif:G-rich" 1 42
+T2T_45S	RepeatMasker	similarity	377	407	18.8	+	.	Target "Motif:(GCCG)n" 1 31
+T2T_45S	RepeatMasker	similarity	884	918	20.8	+	.	Target "Motif:(CCG)n" 1 34
+T2T_45S	RepeatMasker	similarity	3466	3533	30.5	+	.	Target "Motif:(CCGCGC)n" 1 70
+T2T_45S	RepeatMasker	similarity	5543	5570	 8.2	+	.	Target "Motif:(CCG)n" 1 28
+T2T_45S	RepeatMasker	similarity	5602	5639	18.9	+	.	Target "Motif:(CGCGTG)n" 1 38
+T2T_45S	RepeatMasker	similarity	5634	5659	 8.3	+	.	Target "Motif:(CGTT)n" 1 26
+T2T_45S	RepeatMasker	similarity	5712	5739	 0.0	+	.	Target "Motif:(GA)n" 1 28
+T2T_45S	RepeatMasker	similarity	5778	5867	25.9	+	.	Target "Motif:(CGG)n" 1 87
+T2T_45S	RepeatMasker	similarity	6211	6289	25.3	+	.	Target "Motif:(CCGCCG)n" 1 78
+T2T_45S	RepeatMasker	similarity	6868	6911	19.8	+	.	Target "Motif:(TCCCCC)n" 1 42
+T2T_45S	RepeatMasker	similarity	7159	7188	 3.4	+	.	Target "Motif:(CGT)n" 1 32
+T2T_45S	RepeatMasker	similarity	8437	8505	35.1	+	.	Target "Motif:(CCC)n" 1 69
+T2T_45S	RepeatMasker	similarity	8686	8751	13.4	+	.	Target "Motif:(CCGT)n" 1 74
+T2T_45S	RepeatMasker	similarity	8770	8813	 2.3	+	.	Target "Motif:(GGC)n" 1 44
+T2T_45S	RepeatMasker	similarity	9001	9056	30.3	+	.	Target "Motif:(CCCCGC)n" 1 54
+T2T_45S	RepeatMasker	similarity	10023	10056	 7.3	+	.	Target "Motif:(GC)n" 1 36
+T2T_45S	RepeatMasker	similarity	10074	10099	 0.0	+	.	Target "Motif:(GGC)n" 1 26
+T2T_45S	RepeatMasker	similarity	10115	10186	20.1	+	.	Target "Motif:(CCCCCGC)n" 1 70
+T2T_45S	RepeatMasker	similarity	10884	11020	27.2	+	.	Target "Motif:(CGCCCC)n" 1 138
+T2T_45S	RepeatMasker	similarity	11037	11113	26.7	+	.	Target "Motif:G-rich" 1 75
+T2T_45S	RepeatMasker	similarity	11359	11410	19.7	+	.	Target "Motif:(TCCCCC)n" 1 57
+T2T_45S	RepeatMasker	similarity	11412	11446	 0.0	+	.	Target "Motif:(CGG)n" 1 33
+T2T_45S	RepeatMasker	similarity	12054	12098	20.5	+	.	Target "Motif:(GCGCCGC)n" 1 48
+T2T_45S	RepeatMasker	similarity	12743	12784	15.9	+	.	Target "Motif:(CG)n" 1 45
+T2T_45S	RepeatMasker	similarity	13003	13059	17.8	+	.	Target "Motif:(CG)n" 1 61
+T2T_45S	RepeatMasker	similarity	13050	13090	13.3	+	.	Target "Motif:(CGTC)n" 1 45
+T2T_45S	RepeatMasker	similarity	13255	13321	21.1	+	.	Target "Motif:(GCCGCG)n" 1 72

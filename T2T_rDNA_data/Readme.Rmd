@@ -1,0 +1,60 @@
+---
+title: "Data for T2T rDNA genes"
+author: "TFGL-AISHA SHAH"
+format: gfm
+execute:
+  echo: true
+  eval: true
+  warning: false
+  output: true
+---
+
+## This directory contains :
+
+1.  **Sequences for rDNA 45S copies annotated in T2T-CHM13**\
+    T2T_rDNA45S.219_morphs.fa
+
+2.  **Sequences for 24 unique rDNA 45S copies in T2T-CHM13**\
+    T2T_rDNA45S.24_uniq_morphs.fa
+
+3.  **Sequences of two unique 5S morphs in T2T-CHM13**\
+    T2T_rDNA5S.2_uniq_morphs.fa
+
+4.  **Consensus sequences for rDNA45S and 5S gene (consensus based on 24 unique morphs in T2T genome + no degenerate bases)**\
+    T2T_rDNA.consensus.fa
+
+5.  **tsv file sumarrizing number of copies each unique rDNA morph has in T2T-CHM13 genome**\
+    T2T.rDNA_copies_per_unique_morph.tsv
+
+6.  **File having coordinated of unique rDNA copies in T2T-CHM13 genome**\
+    T2T_rDNA45S.24_uniq_morphs_coordinates.bed
+
+7.  **File having consensus of 24 unique morphs only (T2T 5S sequence removed)**\
+    T2T_rDNA.consensus.single.fa
+
+8.  **fasta sequence of of 24 unique rDNA45S morpsh + consensus (fasta in file 2 and 7)**\
+    T2T_rDNA45S.consensus.24_uniq_morphs.distances.fa
+
+9.  **Matrix for pairwise percentage identities of 24 unique rDNA45S morpsh + consensus**\
+    T2T_rDNA45S.consensus.24_uniq_morphs.distances.out
+
+10. **Alignment of 24 unique rDNA45S morpsh + consensus**\
+    T2T_rDNA45S.consensus.24_uniq_morphs.distances.aln
+
+11. **information about alignment in fasta file 10 using EMBOSS infoalign tool**\
+    T2T_rDNA45S.consensus.24_uniq_morphs.infoalign
+
+12. **variants in 24 unique morphs compared to consensus using alignmnet file 10 and** **msa2snp.py**\
+    T2T_rDNA45S.consensus.24_uniq_morphs.variants.out
+
+13. **GC content across rDNA 45s Consensus sequence**\
+    T2T_rDNA45S.windows.Size50.Step1.GC_content.bedGraph
+
+14. **Bed file for Blacklisted regions in rDNA consensus** \
+    T2T_rDNA45S_masked_complex_regions.RepeatMasker.bed
+
+15. **GFF43 file for Blacklisted regions in rDNA consensus** \
+    T2T_rDNA45S_masked_complex_regions.RepeatMasker.gff3
+
+16. **Summary file for Blacklisted regions in rDNA consensus** \
+    T2T_rDNA45S_masked_complex_regions.RepeatMasker.summary.tbl

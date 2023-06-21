@@ -1,5 +1,0 @@
-
-To get distance matrixes (%id) , I run clustalo alignment on unique morphs using slurm job run_clustal.slurm
-This file contains fasta sequences and alignments of unique morphs and pairwise percentage identities
-
-This directory also contains bed files for genes unique morphs in sub directory RNA45S_regions 

@@ -1,2 +1,0 @@
-cat variants_chr15.aln | grep -v '>' | uniq -c
-

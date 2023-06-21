@@ -1,8 +1,0 @@
-
-
-- We extracted unique RNA45S morphs from the fasta file 
-- we created a gff file using bedfile of coordinates and gff3 file in Data/assemblies/T2T/
--  bedtools intersect -a Unique_variants_annotation.bed -b  /gpfs/projects/bsc83/Data/assemblies/T2T/chm13.draft_v2.0.gene_annotation.gff3 -wao  >> overlap.bed
-- First 5 columns of file overlap.bed were of  Unique_variants_annotation.bed , so we removed them --> NO WE NEED TO KEEP NAMES OF OPERONS !! 
-- to sort the gff file we used : sort -k1,1V -k4,4n -k5,5rn -k3,3r overlap.gff > overlap_sorted.gff
- 

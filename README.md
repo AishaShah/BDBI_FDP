@@ -8,12 +8,12 @@ Project.
       
     This for directory includes :
 
-    - rDNA consensus based on 24 unique rDNA sequences annoated in
+    - rDNA consensus based on 24 unique rDNA sequences annotated in
       T2T-CHM13 human genome
     - CN of each unique sequence
     - Coordinates of unique sequences in T2T-CHM13 genome
-    - Pairwise percantage identities and alignmnet of 24 unique
-      sequences with consnesus
+    - Pairwise percentage identities and alignment of 24 unique
+      sequences with consensus
     - Bedgraph file of GC coverage along consensus sequence
     - Variants in unique sequences
     - Blacklisted regions in rDNA 45S consensus
@@ -24,14 +24,14 @@ Project.
     T2T-CHM13 annotation files. It also include bed files of masked
     regions in T2T-CHM13 genome to create customize reference for rDNA
     mapping.  
-    ``` (corrsponds to section "``Obtaining genomic coordinates of rDNA genes in the T2T-CHM13 human reference genome``and "``Building a consensus sequence for the transcribed 45S operon``" in FDP_Report) ```
+    `(corrsponds to section "Obtaining genomic coordinates of rDNA genes in the T2T-CHM13 human reference genome" and "Creating a suitable reference genome of rRNA variant calling" in FDP_Report)`
 
-3.  **Directory Name : 01_Identifying_T2T-CHM13_Unique_rDNA_copies  
-    **This directory contains scripts to extract unique rDNA sequenecs
+3.  **Directory Name : 01_Identifying_T2T-CHM13_Unique_rDNA_copies**  
+    This directory contains scripts to extract unique rDNA sequences
     from 219 rDNA sequences annotated in T2T-CHM13 genome.  
     (``` corresponds to section :``Characterization of the rDNA copies in the T2T-CHM13 human reference genome in FDP report) ```
 
-4.  **Directory Name : 02_T2T-CHM13_Identifying_Pseudogenes  
-    **This directory contains information and script for identification
-    of rDNA-like regions in T2T-CHM13 genome to mask them in order to
-    create customized assembly. (as mentione in “2”)
+4.  **Directory Name : 02_T2T-CHM13_Identifying_Pseudogenes**  
+    This directory contains information and script for identification of
+    rDNA-like regions in T2T-CHM13 genome to mask them in order to
+    create customized assembly. (as mentioned in “2”)

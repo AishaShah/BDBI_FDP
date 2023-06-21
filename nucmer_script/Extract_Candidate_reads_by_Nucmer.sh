@@ -44,8 +44,10 @@ My input was : WGS fastq for 47 samples(one sample missing from 1000 genomes pha
 module load anaconda
 conda activate seqkit
 
+sample_name=$1
+
 # one task for each sample (task id represent sample given in genome_ids.tab file i.e one sample name per line )
-export genome_id=$(sed -n "${SLURM_ARRAY_TASK_ID}p" genome_ids.tab | cut -f1)
+export genome_id=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${sample_name} | cut -f1)
 # path for input fastq files
 inpath=/gpfs/projects/bsc83/Projects/ribosomal_RNAs/merged_fastq
 # output directory

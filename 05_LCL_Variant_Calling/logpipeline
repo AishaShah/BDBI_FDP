@@ -1,0 +1,16 @@
+WGS
+# grep FTP links for required Genome_IDs
+grep -wFf PRJNA733656.1000_Genomes_ID.txt igsr_Gambian_in_Western_Division.The_Gambia_Mandinka_undefined.tsv | awk '{print $1}' > PRJNA733656.1000_Genomes_ID.ftp_links.txt 
+
+# Download file :
+./download_WGQ_fastq.sh
+
+# Downloading CRAM reference genome
+mkdir 00_reference
+cd 00_reference
+wget -r ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/
+
+
+# Cram to fastq
+sbatch cram2fastq.sh
+

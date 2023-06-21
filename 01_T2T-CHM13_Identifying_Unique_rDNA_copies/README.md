@@ -5,6 +5,14 @@ TFGL-AISHA SHAH
 
 First using bedfile of rDNA genes coordinates we extract rDNA sequences
 per chromosome. The are named as CHRX:start_coordinate-End_coordinate.
+We use following command line to do this :  
+
+``` bash
+bedtools getfasta 
+    -fi T2T-CHM13_Genome.fa 
+    -bed ${Chr}_rDNA_coordinates.bed 
+    -s > fasta_T2T_rRNA_${chr}.fa
+```
 
 So before downstream analysis we rename these sequences using script
 **`rename_or_extract_rDNA_fasta_sequences.py`** which can be use as

@@ -22,7 +22,16 @@ Project.
       
     This file includes scripts used to extract rDNA sequences from
     T2T-CHM13 annotation files. It also include bed files of masked
-    regions.  
-    `(corrsponds to section "2.1 Obtaining Genomic Coordinates" and "2.3.2 Masking T2T-CHM13 genome" in 01_FDP_Report)`
+    regions in T2T-CHM13 genome to create customize reference for rDNA
+    mapping.  
+    ``` (corrsponds to section "``Obtaining genomic coordinates of rDNA genes in the T2T-CHM13 human reference genome``and "``Building a consensus sequence for the transcribed 45S operon``" in FDP_Report) ```
 
-3.  **Directory Name : 01_Identifying_T2T-CHM13_Unique_rDNA_copies**
+3.  **Directory Name : 01_Identifying_T2T-CHM13_Unique_rDNA_copies  
+    **This directory contains scripts to extract unique rDNA sequenecs
+    from 219 rDNA sequences annotated in T2T-CHM13 genome.  
+    (``` corresponds to section :``Characterization of the rDNA copies in the T2T-CHM13 human reference genome in FDP report) ```
+
+4.  **Directory Name : 02_T2T-CHM13_Identifying_Pseudogenes  
+    **This directory contains information and script for identification
+    of rDNA-like regions in T2T-CHM13 genome to mask them in order to
+    create customized assembly. (as mentione in “2”)

@@ -177,6 +177,14 @@ tail -n +5 ${outpath_nucmer}/${sample_id}_2.nucmer.rDNA.coords| awk '{print $13}
 # extract unique read ids
 cat ${outpath_nucmer}/readIDs.out | sort | uniq > ${outpath_nucmer}/uniq_readIDs.out
 
+
+#tail -n +5 ${outpath_nucmer}/${sample_id}_1.nucmer.rDNA.coords| awk '{print $13}' | sed 's/\/[12]$//' > ${outpath_nucmer}/readIDs.out
+#tail -n +5 ${outpath_nucmer}/${sample_id}_2.nucmer.rDNA.coords| awk '{print $13}' | sed 's/\/[12]$//' >> ${outpath_nucmer}/readIDs.out
+#cat ${outpath_nucmer}/readIDs.out | sort | uniq > ${outpath_nucmer}/uniq_readIDs.out
+
+#sed 's/$/\/1/' ${outpath_nucmer}/uniq_readIDs.out  > ${outpath_nucmer}/uniq_readIDs_1.out
+#sed 's/$/\/2/' ${outpath_nucmer}/uniq_readIDs.out  > ${outpath_nucmer}/uniq_readIDs_2.out
+
 echo "End extracting read_IDs  : $(date)"
 echo "**************************************************************"
 echo ""

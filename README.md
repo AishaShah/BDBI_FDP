@@ -1,6 +1,10 @@
 # Inter and intra individual variants in rDNA genes
 TFGL-AISHA SHAH
 
+<img src="03_T2T-CHM13_Gold_Standard_variants_using_kmers/images/Workflow.png"
+data-fig-align="center"
+alt="Workflow" />
+
 This github repisotary includes all the scripts used in for Final Degree
 Project.
 

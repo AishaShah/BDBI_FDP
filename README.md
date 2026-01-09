@@ -5,8 +5,8 @@ TFGL-AISHA SHAH
 data-fig-align="center"
 alt="Workflow" />
 
-This github repisotary includes all the scripts used in for Final Degree
-Project.
+This github repisotary includes all the scripts used in for my Bachelor Final Degree
+Project (BSc. Bioinformatics, UPF-UAB-UPC-UB Joint Degree Programme).
 
 1.  **Directory Name : 00_T2T_rDNA_data**  
       

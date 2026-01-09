@@ -8,6 +8,12 @@ alt="Workflow" />
 This github repisotary includes all the scripts used in for my Bachelor Final Degree
 Project (BSc. Bioinformatics, UPF-UAB-UPC-UB Joint Degree Programme).
 
+📄 **Final Degree Project Report:**  
+-  [Main Manuscript](https://drive.google.com/file/d/11ONEkx2LUCiU-mXELJjXtO7EIUWjoNWD/view?usp=sharing)
+-  [Supplementary Material](https://drive.google.com/file/d/1zDHZQj9cEzbDn7AprE-f1XhMw3BrUhQ9/view?usp=sharing)
+-  [Publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC12714689/)
+
+
 1.  **Directory Name : 00_T2T_rDNA_data**  
       
     This for directory includes :

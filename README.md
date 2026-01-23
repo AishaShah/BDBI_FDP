@@ -9,8 +9,8 @@ This github repisotary includes all the scripts used in for my Bachelor Final De
 Project (BSc. Bioinformatics, UPF-UAB-UPC-UB Joint Degree Programme).
 
 📄 **Final Degree Project Report:**  
--  [Main Manuscript](https://drive.google.com/file/d/11ONEkx2LUCiU-mXELJjXtO7EIUWjoNWD/view?usp=sharing)
--  [Supplementary Material](https://drive.google.com/file/d/1zDHZQj9cEzbDn7AprE-f1XhMw3BrUhQ9/view?usp=sharing)
+-  [Thesis](https://drive.google.com/file/d/11ONEkx2LUCiU-mXELJjXtO7EIUWjoNWD/view?usp=sharing)
+-  [Thesis - Supplementary Material](https://drive.google.com/file/d/1zDHZQj9cEzbDn7AprE-f1XhMw3BrUhQ9/view?usp=sharing)
 -  [Publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC12714689/)
 
 
